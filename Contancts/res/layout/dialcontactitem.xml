@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="31dp" >
+
+    <TextView
+        android:id="@+id/TvDialContactName"
+        android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" >
+    </TextView>
+
+<ImageButton
+    android:id="@+id/callTo"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="#00000000"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:src="@drawable/callto" />
+
+        </RelativeLayout>
+    <TextView
+        android:id="@+id/TvPinyinAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TvDialContactName"
+        android:textAppearance="?android:attr/textAppearanceSmall" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TvNumAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TvPinyinAddr"
+        android:textAppearance="?android:attr/textAppearanceSmall" >
+    </TextView>
+
+</LinearLayout>
